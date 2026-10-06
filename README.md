@@ -49,7 +49,6 @@ The main objective of this project is to:
 | Excel / CSV | Data Source |
 | DAX | Calculated Measures |
 | Power Query | Data Transformation |
-| Data Modeling | Relationship Creation |
 
 ---
 
@@ -175,25 +174,9 @@ Tools:
 
 ---
 
-## Step 3: Data Modeling
 
-Created relationships between:
 
-```text
-Player Table
-↓
-
-Team Table
-↓
-
-Match Statistics
-```
-
-Optimized for performance and reporting.
-
----
-
-## Step 4: DAX Calculations
+## Step 3: DAX Calculations
 
 Sample DAX Measures:
 
@@ -274,16 +257,6 @@ SUM(IPL2025Batters[100s])
 ✅ Dynamic Filtering  
 ✅ KPI Cards  
 ✅ Professional Visualization  
-
----
-
-# 📌 Future Improvements
-
-- Add Bowling Dashboard
-- Add Match Prediction Model
-- Add Win Probability Analysis
-- Deploy Dashboard Online
-- Real-Time IPL Data Integration
 
 ---
 
